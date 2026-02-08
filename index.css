@@ -42,6 +42,15 @@ body {
   text-shadow: 0.4px 0 0 currentColor;
 }
 
+.socials {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.socials a {
+  text-decoration: none;
+}
+
 .profile {
   display: flex;
   width: 50%;
