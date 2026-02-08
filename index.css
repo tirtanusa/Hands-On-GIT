@@ -1,8 +1,45 @@
 body {
   font-family: "Funnel Display", sans-serif;
 }
+
 * {
   box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header nav {
+  margin-left: auto;
+}
+
+.header a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.header a:hover {
+  border-bottom: 2px solid black;
+}
+
+.contact-btn {
+  margin-left: auto;
+  background-color: #fbdb14;
+  border: 2px solid transparent;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.contact-btn:hover {
+  border: 2px solid black;
+  text-shadow: 0.4px 0 0 currentColor;
 }
 
 .profile {
