@@ -76,3 +76,39 @@ body {
   object-fit: cover;
   object-position: center;
 }
+.project {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.project-section {
+  display: flex;
+  gap: 16px;
+}
+
+.project-card {
+  border-radius: 8px;
+  border: 1px solid black;
+  overflow: hidden;
+  width: 200px;
+  text-decoration: none;
+}
+
+.project-card:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: rgba(0, 0, 0, 0.4) 1.95px 1.95px 2.6px;
+}
+
+.project-title {
+  background-color: #fbdb14;
+  height: 70px;
+  text-align: center;
+  align-content: center;
+  color: white;
+  font-weight: bolder;
+}
+
+.project-card > p {
+  padding: 5px 10px;
+  color: black;
+}
